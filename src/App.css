@@ -40,3 +40,10 @@
 .button:nth-child(2){
  background-color: rgb(48, 113, 156);
 }
+
+#lienzoWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}

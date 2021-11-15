@@ -17,8 +17,9 @@ function App() {
         {/*Seleccionar un color*/}
         <ColorPicker selectedColor={selectedColor} setSelectedColor={setSelectedColor} className='colorpicker' />
       </div>
-      <Lienzo selectedColor={selectedColor} />
-      
+      <div id="lienzoWrapper">
+        <Lienzo selectedColor={selectedColor} />
+      </div>
     </div>
   );
 }
